@@ -1,0 +1,671 @@
+.my-nav .nav-item a:hover{
+   color: yellowgreen !important; 
+}
+.my-icon i:hover{
+    color: yellow !important;
+}
+
+
+.navbar {
+    background-color: #090c11 !important;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+
+
+
+
+header{
+  background:
+    linear-gradient(rgba(0,0,0,.85)),
+    url("../images/hero-bg.jpg") ;
+  background-size: cover;
+  background-position: center; 
+       
+           
+}
+
+
+
+
+
+
+
+.text-success,
+.btn-success {
+    color: #090c11 !important;
+}
+
+.btn-success {
+    background-color: #c5ff00 !important;
+    border-color: #c5ff00 !important;
+}
+
+.btn-outline-success {
+    color: #c5ff00;
+    border-color: #c5ff00;
+}
+
+.btn-outline-success:hover{
+ background-color: #c5ff00;
+ color: #090c11;   
+}
+
+.hero-section h1 {
+    line-height: 1.15;
+}
+
+.player-card {
+    border: 1px solid #343a40;
+    transform: translate(-20px, 30px);
+}
+
+
+
+
+.our-games{
+padding: 200px 0px;
+}
+
+.our-games h2{
+ font-size: 16px; 
+ display: flex;  
+ justify-content: center;
+ align-items: center;
+ color: #CBFE1C;
+}
+
+.our-games p{
+  font-size: 30px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 30px;
+}
+
+
+
+
+.my-prev{
+        border: solid 2px #FFFFFF;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 130%;
+    left: 40%;
+}
+
+.my-prev:hover{
+  color: #c5ff00;  
+  border: solid 2px #c5ff00;
+}
+
+
+
+
+.my-next{
+    border: solid 2px #FFFFFF;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 130%;
+    left: 47%;
+}
+
+.my-next:hover{
+  color: #c5ff00;  
+  border: solid 2px #c5ff00;
+}
+
+.yassa{
+    gap: 15px;
+}
+
+.carousel-item .yassa img{
+  width: 400px;
+
+}
+.games::after {
+  content: '';
+  position: absolute;
+  inset: 0; 
+  
+  background: linear-gradient(to top, rgba(132, 222, 2, 0.85) 0%, rgba(255, 255, 255, 0.018) 100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s ease;
+  z-index: 1; 
+}
+
+.games:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.span-adventure{
+ position: absolute;
+ top: 10%;
+ left: 5%;
+ color: yellowgreen;   
+ opacity: 0;
+ background-color: #1b1b1b;
+ padding: 5px;
+}
+
+.multi{
+ position: absolute;
+ top: 10%;
+ left: 60%;
+ color: yellowgreen;   
+ opacity: 0;
+ padding: 5px;
+}
+
+.alien{
+ position: absolute;
+ top: 80%;
+ left: 10px;
+ opacity: 0;  
+  
+}
+
+.games:hover .span-adventure,
+.games:hover .multi,
+.games:hover .alien {
+  opacity: 1;
+
+}
+.games:hover .span-adventure{
+background-color: #1b1b1b;
+}
+
+.games:hover .multi{
+  background-color: #1b1b1b;  
+}
+
+.games:hover .alien {
+color: black;    
+}
+
+
+
+
+
+
+
+.view{
+position: absolute;
+top: 130%;
+left: 55%;
+padding: 15PX;    
+}
+
+
+
+
+
+
+
+
+
+.what-we-do{
+    padding: 100px 0px;
+}
+
+
+.header h2{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#CBFE1C;
+}
+
+
+
+.header p{
+    font-size: 30px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header span{
+    color: #c5ff00;
+}
+
+
+
+
+
+
+
+.service-card {
+    position: relative;
+    background-color: #1b1b1b;
+    border: 1px solid #26313e;
+    border-radius: 20px;
+
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    gap: 20px;
+    transition: clip-path 0.3s ease, transform 0.3s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+
+
+
+
+
+
+
+
+
+.icon-box {
+    width: 75px;
+    height: 75px;
+    background-color: #202c3e;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #c5ff00;
+    font-size: 28px;
+}
+
+.service-card h4 {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.service-card h4 span {
+    background-color: #c5ff00;
+    color: #090c11;
+}
+
+.image-card {
+    overflow: hidden;
+    padding: 0;
+    background-color: #c5ff00;
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+ .service-card::before,
+ .service-card::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: #ccff00; 
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+
+.service-card::before {
+  top: -30px;
+  left: -30px;
+}
+
+
+.service-card::after {
+  bottom: -30px;
+  right: -30px;
+  
+}
+
+
+.service-card:hover::before {
+top: 16px;
+  left: 16px;
+}
+
+.service-card:hover::after{
+
+ bottom: 16px;
+  right: 16px;
+  
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-img  {
+  display: flex;
+  gap: 20px; 
+  width:fit-content;
+  animation: scrollLogos 25s linear infinite; 
+}
+
+
+.right-img img {
+  height: 75%; 
+  object-fit: contain;
+      border-radius: 10px;
+
+}
+
+
+
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.left-img  {
+  display: flex;
+  gap: 20px; 
+  width: fit-content;
+  margin-top: 30px;
+   padding-bottom: 100px; 
+  animation: scroll 25s linear infinite; 
+}
+
+
+.left-img img {
+    border-radius: 10px;
+  height: 75%; 
+  object-fit: contain;
+}
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+.header-section h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: yellowgreen;
+    position: relative;
+}
+
+.header-section h2::after{
+content: "";    
+position: absolute;
+top: 50%;
+left: 110%;
+width: 50px;
+height: 5px;
+background-color:yellowgreen ;
+
+}
+.header-section h2::before{
+content: "";    
+position: absolute;
+top: 50%;
+right: 110%;
+width: 50px;
+height: 5px;
+background-color:yellowgreen ;
+
+}
+
+
+.header-section span{
+   color: white;
+   font-size: 30px;
+   font-weight: bold; 
+}
+
+
+
+.header-section p{
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-card {
+  cursor: pointer;
+  background-color: #12161f;
+  border: 1px solid #2a3447;
+}
+
+
+.team-card img {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease, transform 0.4s ease;
+  display: block;
+}
+
+
+.team-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 60%);
+  opacity: 1;
+  visibility: hidden;
+  transition: all 0.35s ;
+  z-index: 3;
+}
+
+
+.team-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+   
+}
+.span-card{
+top: 80%;
+right: 5%;
+display:inline-block block;
+
+transform: rotate(90deg);
+
+}
+
+
+.team-card:hover img {
+  filter: grayscale(0%); 
+  
+}
+
+.team-card:hover::after {
+  opacity: 0;
+  
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-info-card, .form-container {
+    background-color: #12161f;
+    border: 1px solid #1f293d;
+}
+
+
+.icon-box-custom {
+    width: 85px;
+    height: 85px;
+    background-color: #c5ff00;
+}
+
+
+.community-card {
+   background: linear-gradient(135deg, #c5ff00 30%, #39ff14 50%);
+}
+
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.social-icon:hover {
+    transform: translateY(-3px);
+}
+
+
+.custom-input {
+    background-color: #1a2233 !important;
+    border: 1px solid #2a3447 !important;
+    color: #fff !important;
+    padding: 12px;
+}
+.custom-input:focus {
+    box-shadow: none;
+    border-color: #c5ff00 !important;
+}
+.custom-input::placeholder {
+    color: #6c757d;
+}
+
+
+.btn-neon {
+    background-color: #c5ff00;
+    color: #090c11;
+    border: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.btn-neon:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    background-color: #c5ff00;
+    color: #090c11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-neon {
+    color: #c5ff00 !important;
+}
+
+.footer-link {
+    color: #9ca3af; 
+    text-decoration: none;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #c5ff00 !important; 
+   
+}
+
+
+.footer-social a {
+    width: 38px;
+    height: 38px;
+    
+ text-decoration: none;   
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+    background-color: #c5ff00;
+    
+   
+    
+}
